@@ -128,7 +128,7 @@ opts = {
     "beta": 0.0001,      # Consensus matrix C regularization
     "zeta": 0.1,         # M^(v) regularization
     "Frac_alpha": 5000,
-    "maxIter": 200,
+    "maxIter": 60,
     "epsilon": 1e-4,
     "mu": 1e-5,
     "eta": 2,
