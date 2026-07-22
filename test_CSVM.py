@@ -153,7 +153,7 @@ def main():
 
         opts = {
             'Frac_alpha': 5000,
-            'maxIter': ds.get('maxIter', 200),
+            'maxIter': ds.get('maxIter', 60),
             'epsilon': ds.get('epsilon', 1e-4),
             'flag_debug': 0,
             'mu': 1e-5,
