@@ -182,7 +182,7 @@ if GPU_AVAILABLE:
 | `beta` | 共识矩阵 C 的 Frobenius 正则 | 0.001 |
 | `zeta` | 辅助变量 M^(v) 的正则 | 0.001 |
 | `Frac_alpha` | 分数阶收缩参数 | 5000 |
-| `maxIter` | 最大迭代次数 | 200 |
+| `maxIter` | 最大迭代次数 | 60 |
 | `epsilon` | 收敛阈值 | 1e-7 |
 | `mu`, `eta`, `max_mu` | ADMM 惩罚参数及其更新策略 | — |
 | `alpha`, `max_alpha` | 额外 Lagrange 罚参数 | 1e-5 / 1e10 |
