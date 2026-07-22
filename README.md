@@ -182,7 +182,7 @@ Common fields in `opts` for `alg_scvm_msc(X, cls_num, gt, opts)`:
 | `beta` | Frobenius regularization for consensus matrix C | 0.001 |
 | `zeta` | Regularization for auxiliary variable M^(v) | 0.001 |
 | `Frac_alpha` | Fractional shrinkage parameter | 5000 |
-| `maxIter` | Maximum iterations | 200 |
+| `maxIter` | Maximum iterations | 60 |
 | `epsilon` | Convergence threshold | 1e-7 |
 | `mu`, `eta`, `max_mu` | ADMM penalty parameters and update strategy | — |
 | `alpha`, `max_alpha` | Additional Lagrange penalty parameters | 1e-5 / 1e10 |
