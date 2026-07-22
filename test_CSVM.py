@@ -61,9 +61,9 @@ def main():
             'file': 'NH.mat',
             'name': 'Notting Hill',
             'views': 3,
-            'lambda': 0.01,
+            'lambda': 0.00625,
             'gamma': 0.1,
-            'beta': 0.0001,
+            'beta': 0.000125,
             'zeta': 0.0001,
             'description': '4660 samples, 5 classes'
         },
